@@ -16,3 +16,8 @@ Gap.im Bot Sdk and Samples
 
 
 ![Preview Class Code](https://mahdiit.github.io/gapsharp/preview.jpg)
+
+محیط توسعه
+- VS2017
+- .Net 4.6.2
+- Asp.net
