@@ -14,3 +14,5 @@ Gap.im Bot Sdk and Samples
 
 کدها بصورت متد پیاده سازی شده اند
 
+
+![Preview Class Code](https://mahdiit.github.io/gapsharp/preview.jpg)
