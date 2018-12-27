@@ -111,6 +111,29 @@ Cm.Client.SendMessage(new SendMessageInput()
                 MessageType = SendMessageType.text
             });
 ```
+## Using Builders
+What is builders? you need builder to generate 
+- Form
+- Inline Keyboard
+- Reply Keyboard
+
+how? first for keyboards (inline or reply) you need to add a __Row__ then add keys to your keyboards
+
+```csharp
+var builder = new InlineButtonBuilder();
+                builder.AddRow()
+                    .AddCbData("کلید اول", "A1").AddCbData("کلید دوم در همان ردیف", "A2")
+                    .AddRow()
+                    .AddAmount("پرداخت", 2000, CurrencyType.Irr, "XXXXX", "پرداخت کنید"); //ردیف بعدی
+
+                Cm.Client.SendMessage(new SendMessageInput()
+                {
+                    ChatId = message.ChatId,
+                    Data = "لطفا کلید مناسب را انتخاب کنید",
+                    InlineKeyboard = builder.ToString(),
+                    MessageType = SendMessageType.text
+                });
+```
 
 ![Preview Class Code](https://mahdiit.github.io/gapsharp/preview.jpg)
 
