@@ -30,22 +30,21 @@ you can init this class in Global.asax and make it static
 Cm.Client = new GapClient("GapBotToken")
             {
                 //set text logger path to app_data folder in app settings
-                Logger = new SimpleTextLogger("Pointto\Log\Dir\", "DefaultLogLevel")
+                Logger = new SimpleTextLogger("Pointto\\Log\\Dir\\", "DefaultLogLevel")
             };
 ```
 
-you need a logger class, if you do not need log set __Logger__ to __DisabledLogger__
+you need a logger class, if you do not need log set __Logger__ to __DisabledLogger__, 
 __SimpleTextLogger__ will log on text file, you can also write you own logger or use __Log4Net__ or __NLog__ in your project
 see sample implemented logger in project directory 
 
 ```csharp
 protected void Application_Start()
         {
-            Cm.Client = new GapClient(Properties.Settings.Default.Token)
-            {
+            Cm.Client = new GapClient("GapBotToken")
+            {               
                 //set text logger path to app_data folder in app settings
-                //set text logger path to app_data folder in app settings
-                Logger = new SimpleTextLogger("Pointto\Log\Dir\", "DefaultLogLevel")
+                Logger = new SimpleTextLogger("Pointto\\Log\\Dir\\", "DefaultLogLevel")
             };
 
             AreaRegistration.RegisterAllAreas();
@@ -102,6 +101,16 @@ namespace GapBotWeb.Controllers
 }
 ```
 
+send a user text message:
+
+```csharp
+Cm.Client.SendMessage(new SendMessageInput()
+            {
+                Data = "سلام ",
+                ChatId = message.ChatId,
+                MessageType = SendMessageType.text
+            });
+```
 
 ![Preview Class Code](https://mahdiit.github.io/gapsharp/preview.jpg)
 
