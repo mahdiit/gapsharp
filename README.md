@@ -1,6 +1,7 @@
 # GapSharp
 Gap.im Bot Sdk and Samples
 
+![](https://img.shields.io/nuget/v/GapSharp.svg)
 ```
 https://www.nuget.org/packages/GapSharp/1.0.0
 ```
