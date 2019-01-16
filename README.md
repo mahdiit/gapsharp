@@ -1,10 +1,8 @@
 # GapSharp
 Gap.im Bot Sdk and Samples
 
-![](https://img.shields.io/nuget/v/GapSharp.svg)
-```
-https://www.nuget.org/packages/GapSharp/1.0.0
-```
+[![Nuget](https://img.shields.io/nuget/v/GapSharp.svg)](https://www.nuget.org/packages/GapSharp/1.0.0)
+
 <div dir="rtl">
 نمونه کد اتصال به پیام رسان گپ و ایجاد بات
 
