@@ -3,6 +3,7 @@
     public enum RecivedMessageType
     {
         join,
+        leave,
         text,
         image,
         video,
