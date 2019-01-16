@@ -1,16 +1,28 @@
 # GapSharp
 Gap.im Bot Sdk and Samples
 
+```
+https://www.nuget.org/packages/GapSharp/1.0.0
+```
+<div dir="rtl">
 نمونه کد اتصال به پیام رسان گپ و ایجاد بات
 
 پیاده سازی شده بر اساس اطلاعات موجود در بخش توسعه دهندگان سایت گپ
+<div dir="ltr">
+
 - https://developer.gap.im/doc/botplatform
+</div>
+
 
 بصورت رست پیاده سازی شده است
 به همین دلیل نیاز به کتابخانه های زیر هست:
 
+<div dir="ltr">
+
 - https://www.nuget.org/packages/Newtonsoft.Json
 - https://www.nuget.org/packages/RestSharp/
+
+</div>
 
 کدها بصورت متد پیاده سازی شده اند
 
@@ -19,7 +31,7 @@ Gap.im Bot Sdk and Samples
 > گرچه هر کدام محیط های توسعه دارن ولی چندان انتظار ساختارهایی شبیه تلگرام را نداشته باشین
 > در زمان نگارش این متن
 > بسیاری از عملکرد آنها به درستی کار نمیکنند
-
+</div>
 
 ## Using GapClient
 

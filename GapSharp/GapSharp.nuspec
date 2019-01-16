@@ -8,7 +8,7 @@
     <owners>$author$</owners>
     <licenseUrl>https://github.com/mahdiit/gapsharp/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/mahdiit/gapsharp</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://mahdiit.github.io/gapsharp/gap-logo.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Gap.im (Iranian Social Network) Bot Create Sdk</releaseNotes>
